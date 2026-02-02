@@ -22,6 +22,10 @@ namespace amrapp
         int m_colCount=0; 
         bool hasTwoColumn();
         void readTable();
+        std::map<std::string , int> compareColumns( const std::vector<std::string>& col1 , const std::vector<std::string>& col2);
+        std::vector<std::string> complementColumns( const std::vector<std::string>& col1 , const std::vector<std::string>& col2);
+        void printMap (const std::string& title , const std::map<std::string , int>& map); 
+        void printVector (const std::string& title , const std::vector<std::string>& vector); 
     public:
         Calculator(std::string file);
         void repeatedAB();

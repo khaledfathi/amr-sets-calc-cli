@@ -3,8 +3,8 @@
 #include <string>
 
 // APP information 
-const std::string APP_NAME = "asc";
+const std::string APP_NAME = "Amr sets calculator";
 const std::string APP_VERSION = "1.0.0";
-const std::string AUTHOR = "dev@khaledfathi.com";
+const std::string GIT_REPO = "https://github.com/khaledfathi/amr-sets-calc-cli";
 
 #endif // CONSTANTS_HPP

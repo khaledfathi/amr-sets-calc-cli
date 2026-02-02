@@ -3,12 +3,11 @@
 
 #include "cli_parser.hpp"
 
-// using namespace amrapp;
-
 namespace amrapp {
     class CSVProcessor {
     private: 
         argsOption m_options;
+        bool isNoOptions ();
     public :
         CSVProcessor (argsOption options);
         int run (); 
